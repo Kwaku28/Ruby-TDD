@@ -14,7 +14,7 @@ RSpec.describe Solver do
     end
 
     it 'raises an error for negative inputs' do
-      expect{solver.factorial(-10)}.to raise_error(ArgumentError)
+      expect { solver.factorial(-10) }.to raise_error(ArgumentError)
     end
   end
 
