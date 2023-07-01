@@ -26,7 +26,12 @@ RSpec.describe Solver do
   end
 
   describe '#fizzbuzz' do
-
+  it 'Should return "fizz" when N divisible by 3, "buzz" by 5 and "fizzbuzz" divisible both 3 and 5' do
+      solver = Solver.new
+      expect(solver.fizzbuzz(9)).to eq('fizz')
+      expect(solver.fizzbuzz(10)).to eq('buzz')
+      expect(solver.fizzbuzz(45)).to eq('fizzbuzz')
+    end
   end
 
 end
