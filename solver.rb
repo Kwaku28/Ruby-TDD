@@ -23,7 +23,7 @@ class Solver
     elsif (number % 5).zero?
       'buzz'
     else
-      number
+      number.to_s
     end
   end
 end
