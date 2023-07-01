@@ -45,5 +45,5 @@ RSpec.describe Solver do
       expect(solver.fizzbuzz(7)).to eq('7')
       expect(solver.fizzbuzz(16)).to eq('16')
     end
-  end 
+  end
 end
