@@ -31,6 +31,7 @@ RSpec.describe Solver do
       expect(solver.fizzbuzz(9)).to eq('fizz')
       expect(solver.fizzbuzz(10)).to eq('buzz')
       expect(solver.fizzbuzz(45)).to eq('fizzbuzz')
+      expect(solver.fizzbuzz(7)).to eq(7)
     end
   end
 
