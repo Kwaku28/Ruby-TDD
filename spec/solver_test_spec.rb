@@ -24,4 +24,9 @@ RSpec.describe Solver do
       expect(solver.reverse('Lawrence')).to eq 'ecnerwaL'
     end
   end
+
+  describe '#fizzbuzz' do
+
+  end
+
 end
